@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a manual QA case study based on a 6-week contract engagement on a live ecommerce product.
 
-The uploaded workbook, **PIKKAM AFRICA.xlsx**, contains structured QA documentation created during the testing process, including:
+The uploaded workbook, **Ecommerce.xlsx**, contains structured QA documentation created during the testing process, including:
 - test cases
 - bug logs
 - execution tracking
