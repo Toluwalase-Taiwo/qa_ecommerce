@@ -1,146 +1,80 @@
 # QA Case Study – Ecommerce Product Testing
 
 ## Overview
-This repository showcases a **manual QA case study** based on a **6-week contract engagement** on a live ecommerce product.
+This repository contains a manual QA case study based on a 6-week contract engagement on a live ecommerce product.
 
-The purpose of this case study is to demonstrate my ability to:
-- design and execute test cases
-- identify and document defects
-- assess product risk across key user flows
-- communicate QA findings in a structured and professional way
+The uploaded workbook, **PIKKAM AFRICA.xlsx**, contains structured QA documentation created during the testing process, including:
+- test cases
+- bug logs
+- execution tracking
+- user profile testing
+- account setup testing
 
-This project reflects practical testing work carried out on a real product, with focus on quality, usability, validation, and release readiness.
+This case study is presented to demonstrate my ability to apply QA principles in a real product environment.
 
 ---
 
 ## Project Context
-During this 6-week QA contract, I was responsible for testing critical user-facing flows in an ecommerce application.
+During this engagement, I tested critical user-facing flows in an ecommerce application with focus on product quality, validation, usability, and defect identification.
 
-The goal was to improve confidence in the product by validating core functionality, uncovering defects, and documenting issues that could affect:
-- user trust
-- onboarding success
-- account integrity
-- usability
-- overall product quality
+The goal was to improve confidence in the product before release by validating key workflows and documenting issues clearly for resolution.
 
 ---
 
 ## Scope of Testing
-The testing covered major user flows including:
+The testing covered the following areas:
 
+- Signup and onboarding
 - Account setup
-- Signup
-- Email verification / OTP
-- Login
-- Password reset
+- Email / OTP verification
 - User profile
 - Profile photo upload
-- Notification preferences
+- Account information
+- Notifications
 - Security settings
-- Discover categories
+- Password-related flows
 
 ---
 
-## Testing Approach
-I used a **manual, risk-based QA approach** combining:
+## QA Approach
+The testing approach combined:
 
 - Functional testing
 - Negative testing
-- Boundary and edge-case testing
+- Edge-case testing
 - Exploratory testing
-- UI/UX validation
-- Security-oriented checks
-- Regression-minded verification on key flows
+- Validation checks
+- UI/UX review
+- Bug logging and tracking
 
-The aim was not just to test happy paths, but also to challenge the product with invalid, incomplete, and unusual user behaviour.
-
----
-
-## Deliverables
-This case study includes:
-
-- Test case documentation
-- Bug reports / defect log
-- Coverage summary
-- QA analysis and findings
-- Structured testing notes for key product areas
+The focus was not only on successful user flows, but also on invalid inputs, incomplete data, misleading system behaviour, and usability concerns.
 
 ---
 
-## Key QA Metrics
-- **Total documented test cases:** 110
-- **User profile test cases:** 70
-- **Core account setup test cases:** 40
-- **Executed in core suite:** 28
-- **Passed:** 24
-- **Failed:** 4
-- **Logged defects:** 6
-- **High-severity defects:** 5
+## Repository Contents
+### `files/PIKKAM AFRICA.xlsx`
+This file contains the main QA working document used during the testing engagement.
+
+It includes:
+- detailed manual test cases
+- bug reports
+- test execution records
+- observations across major product flows
 
 ---
 
-## Major Findings
-The most important issues discovered during testing were around **signup validation and onboarding logic**.
+## Key Value Demonstrated
+This case study shows my ability to:
 
-### Examples of risks identified
-- Missing or unclear required-field indicators
-- Signup flow allowing progression with incomplete data
-- OTP triggered before full signup validation was completed
-- Misleading validation/error messages shown to users
-- Duplicate phone-number error shown even when phone field was blank
-- Weak or moderate passwords accepted without strong validation guardrails
-
----
-
-## Why These Issues Matter
-These findings are important because they can directly affect:
-
-- onboarding completion rates
-- user trust
-- data quality
-- support burden
-- security perception
-- overall product reliability
-
-In an ecommerce or fintech product, issues like these can create friction early in the user journey and reduce confidence in the platform.
-
----
-
-## My Contribution
-Through this engagement, I demonstrated the ability to:
-
-- break product features into testable scenarios
-- write practical and structured manual test cases
-- identify meaningful defects before release
-- document bugs clearly and trace them to affected flows
-- think beyond happy-path scenarios
-- communicate product quality risks in a way that is useful to developers and stakeholders
-
----
-
-## Tools and Methods Used
-- Google Sheets / Excel
-- Manual testing
-- Exploratory testing
-- Structured bug logging
-- Functional and negative test design
-- UI and validation checks
-
----
-
-## What This Case Study Shows
-This repository is intended to show my QA thought process and execution style as an aspiring QA Engineer.
-
-It highlights:
-- attention to detail
-- analytical thinking
-- quality assurance fundamentals
-- real-world bug identification
-- practical documentation skills
+- write and organize manual test cases
+- test real user journeys in a structured way
+- identify and document product defects
+- communicate quality risks clearly
+- apply detail-oriented and analytical QA thinking
 
 ---
 
 ## Note
-This repository is presented as a professional QA case study for internship and junior QA applications.
+This repository is shared as a professional QA portfolio case study.
 
-Sensitive or internal product details can be redacted where necessary before making the repository public.
+Any sensitive or internal product information should be reviewed and redacted before making the repository public.
