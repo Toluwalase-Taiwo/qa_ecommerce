@@ -68,7 +68,11 @@ The workbook in this repository includes:
 
 ### Bug Report Sheet
 
-![Bug Report Preview](assets/bug-report-preview.png)
+![Bug Report Preview](assets/bug-logs.png)
+
+### Summary Report Sheet
+
+![Summary Report Preview](assets/summary-report.png)
 
 ## Why This Repository
 
