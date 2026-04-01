@@ -1,80 +1,83 @@
 # QA Case Study – Ecommerce Product Testing
 
-## Overview
-This repository contains a manual QA case study based on a 6-week contract engagement on a live ecommerce product.
+This repository contains a manual QA case study based on a 6-week contract engagement on an ecommerce product. It shows how I approached structured testing in a real product environment using test cases, bug logs, execution tracking, and QA observations.
 
-The uploaded workbook, **Ecommerce.xlsx**, contains structured QA documentation created during the testing process, including:
-- test cases
-- bug logs
-- execution tracking
-- user profile testing
-- account setup testing
+## Project Overview
 
-This case study is presented to demonstrate my ability to apply QA principles in a real product environment.
+The goal of this case study was to validate key user flows, identify defects, and support product quality before release. The work focused on testing important parts of the product from the user’s point of view and documenting findings clearly for follow-up and verification.
 
----
+## Scope Covered
 
-## Project Context
-During this engagement, I tested critical user-facing flows in an ecommerce application with focus on product quality, validation, usability, and defect identification.
-
-The goal was to improve confidence in the product before release by validating key workflows and documenting issues clearly for resolution.
-
----
-
-## Scope of Testing
-The testing covered the following areas:
+The testing covered major ecommerce flows, including:
 
 - Signup and onboarding
-- Account setup
-- Email / OTP verification
+- OTP verification
 - User profile
 - Profile photo upload
-- Account information
 - Notifications
 - Security settings
 - Password-related flows
 
----
+## Testing Approach
 
-## QA Approach
-The testing approach combined:
+The QA work in this case study includes:
 
 - Functional testing
 - Negative testing
-- Edge-case testing
+- Edge case testing
 - Exploratory testing
 - Validation checks
-- UI/UX review
-- Bug logging and tracking
+- UI and UX review
+- Bug documentation and follow-up
 
-The focus was not only on successful user flows, but also on invalid inputs, incomplete data, misleading system behaviour, and usability concerns.
+## What the Workbook Contains
 
----
+The workbook in this repository includes:
 
-## Repository Contents
-### `ecommerce_qa_casestudy.xlsx`
-This file contains the main QA working document used during the testing engagement.
+- Test cases
+- Bug reports
+- Execution status tracking
+- QA notes and observations
 
-It includes:
-- detailed manual test cases
-- bug reports
-- test execution records
-- observations across major product flows
+## Key Outcomes
 
----
+- Created structured QA documentation for major product flows
+- Logged defects found during testing and supported follow-up validation
+- Covered core user journeys across account setup, profile management, and security-related flows
+- Applied manual QA practices in a live product testing environment
 
-## Key Value Demonstrated
-This case study shows my ability to:
+## Tools Used
 
-- write and organize manual test cases
-- test real user journeys in a structured way
-- identify and document product defects
-- communicate quality risks clearly
-- apply detail-oriented and analytical QA thinking
+- Excel / Google Sheets
+- Manual testing
+- Bug documentation
+- Test case design
 
----
+## Sample Bug Found
 
-## Note
-This repository is shared as a professional QA portfolio case study.
+**Title:** Signup flow allows weak or incomplete validation in some scenarios  
+**Type:** Functional / Validation Issue  
+**Severity:** Medium  
+**Summary:** During testing, I identified validation gaps in parts of the signup flow. The issue was documented clearly for follow-up and retesting after fixes.
 
-Any sensitive or internal product information should be reviewed and redacted before making the repository public.
+## Preview
+
+### Test Case Sheet
+
+![Test Case Sheet Preview](assets/test-case-preview.png)
+
+### Bug Report Sheet
+
+![Bug Report Preview](assets/bug-report-preview.png)
+
+## Why This Repository
+
+I created this repository to show how I approach manual QA work in a practical setting. It reflects my ability to think through user flows, document defects clearly, and support release readiness with structured testing.
+
+## File Included
+
+- `ecommerce_qa_casestudy.xlsx`
+
+## About Me
+
+I am a Junior QA Engineer with hands-on experience testing web and mobile products across ecommerce, recruitment, and church management platforms. My focus in QA is not just finding bugs, but helping teams release products that are stable, usable, and reliable for the end user.
