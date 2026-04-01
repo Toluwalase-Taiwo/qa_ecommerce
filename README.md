@@ -52,7 +52,7 @@ The focus was not only on successful user flows, but also on invalid inputs, inc
 ---
 
 ## Repository Contents
-### `files/ecommerce.xlsx`
+### `ecommerce_qa_casestudy.xlsx`
 This file contains the main QA working document used during the testing engagement.
 
 It includes:
