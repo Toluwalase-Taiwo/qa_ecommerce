@@ -61,18 +61,16 @@ The workbook in this repository includes:
 **Summary:** During testing, I identified validation gaps in parts of the signup flow. The issue was documented clearly for follow-up and retesting after fixes.
 
 ## Preview
+<h2>Preview</h2>
 
-### Test Case Sheet
+<h3>Test Case Sheet</h3>
+<img src="assets/test_case_preview.png" alt="Test Case Preview" width="700"/>
 
-![Test Case Sheet Preview](assets/test-case-preview.png)
+<h3>Bug Report Sheet</h3>
+<img src="assets/bug_logs.png" alt="Bug Report Preview" width="700"/>
 
-### Bug Report Sheet
-
-![Bug Report Preview](assets/bug-logs.png)
-
-### Summary Report Sheet
-
-![Summary Report Preview](assets/summary-report.png)
+<h3>Summary Report</h3>
+<img src="assets/summary_report.png" alt="Summary Report Preview" width="700"/>
 
 ## Why This Repository
 
